@@ -15,10 +15,10 @@
 #
 
 # Inherit from find7-common
--include device/oppo/find7-common/BoardConfigCommon.mk
+-include device/oppo/find7-common-lvm/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := find7,find7a,FIND7,X9006,X9007
 
 # Properties
-TARGET_SYSTEM_PROP += device/oppo/find7/system.prop
+TARGET_SYSTEM_PROP += device/oppo/find7-lvm/system.prop
